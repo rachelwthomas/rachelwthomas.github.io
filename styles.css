@@ -6,11 +6,14 @@ img {
 }
 
 body{
-  margin: 0%;
+ margin: 0px;
+ padding: 0px;
 }
 .webpage {
   width: 100%;
   display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
 /********************************************************* color class */
 .red {
@@ -50,7 +53,9 @@ body{
   height: 100%;
   background-color: #F8F8F8;
   color: #5D5D5D;
-  padding: 25px 165px 25px 164px;
+  padding: 25px 25px 25px 25px;
+
+
 
   border-bottom: solid 1px #E7E7E7;
 }
@@ -58,6 +63,8 @@ body{
 .navbar-left {
   width: 50%;
   display: inline-block;
+
+  font-size: 25px;
 
 
   font-family: 'lato',sans-serif;
@@ -73,31 +80,17 @@ body{
   color: #CB5C3C;
 }
 
-/******************************************** navbar left side link styling */
-.navbar-left a {
-  /* padding: 0px 11px 0px 11px; */
-
-  color: #5D5D5D;
-
-  text-decoration: none;
-
-  font-weight: bold;
-  font-size: 12.5px;
-  padding: 20px 12px;
-  letter-spacing: 1px;
-  line-height: 20px;
-}
-/********************************************* navbar left side link spacing */
+/********************************************* navbar right side link spacing */
 .navbar-right{
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 
-  display: inline-block;
   width: 9%;
 }
 
 .navbar-right a {
   text-align: right;
-  font-size: 14px;
+  font-size: 25px;
   margin: 7px;
   line-height: 21px;
   color: #AAAAAA;
@@ -168,9 +161,10 @@ body{
 }
 
 .blogpost-content p {
+  text-indent: 50px;
   text-align: left;
   font-size: 17.5px;
-  line-height: 29px;
+  line-height: 23px;
   margin: 25px 36px 40px 46px;
 
 
@@ -189,10 +183,12 @@ body{
 
 .blogpost-content button:hover {
   background: #CB5C3C;
+  color: #FFFFFF;
 
 }
 .blogpost-content button span:hover {
   color: #FFFFFF;
+  background: #CB5C3C;
 }
 
 
@@ -525,143 +521,4 @@ padding-bottom: 14px;
 .sidebar-3 .article-2 , .sidebar-3 .article-3 , .sidebar-3 .article-4 {
 padding-top: 16px;
 
-}
-
-.sidebar-3 .article-4 {
-  border: none;
-}
-/* added position relative on this because hover effect lit up the whole .main-body */
-.sidebar4 {
-  position: relative;
- padding-bottom: 30px;
-}
-
-.sidebar-4 h2 {
-  text-align: center;
-  margin-top: 18px;
-  margin-bottom: 0px;
-  font-size: 21px;
-  letter-spacing: 1px;
-  padding-top: 34px;
-}
-
-.sidebar-4 .sidebar-content-4{
-  display: inline-block;
-  text-align: center;
-  margin-top: 32px;
-  padding-bottom: 30px;
-
-}
-
-.sidebar-4 img {
-  height: 175px;
-  width: 170px;
-  margin-bottom: 9px;
-}
-
-.sidebar-4 a {
-  margin-bottom: 6px;
-}
-.sidebar-4 a:nth-of-type(odd) {
-  margin-right: 4.5px;
-
-}
-
-.sidebar-4 a:nth-of-type(even) {
-  margin-left: 4.5px;
-}
-
-.sidebar-content-4 a::before {
-  content: '';
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-
-  background-color: red;
-  opacity: 0;
-
-  transition: opacity 1s;
-}
-
-.sidebar-content-4 a:hover::before {
-opacity: .3;
-
-}
-
-
-/*********************************************************footer styling */
-.webpage-footer {
-  height: 222px;
-
-  float: left:
-
-
-  /* position: relative; */
-}
-
-
-.webpage-footer .footer-images {
-
-  /* height: 222px; */
-  width: 12.5%;
-  display: inline-block;
-  padding-bottom: 20px;
-  float: left;
-}
-
-.webpage-footer .footer-images a img {
-  /* position: relative; */
-  display: inline-block;
-  float: left;
-
-}
-
-
-
-
-/*****************************************footer hover effects  */
-/* .webpage-footer a{
-  position: relative;
-} */
-/* I had to move the overlay up -206 because it was displaying under
-my footer images. now my span will not show up when I hover */
-
-.footer-images::before {
-  content: '';
-  position: absolute;
-
-  top: -206px;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
-
-  height: 222px;
-  width: 100%;
-
-  background-color: red;
-  opacity: 0;
-
-  transition: opacity 1s;
-}
-
-.footer-images:hover::before {
-  opacity: .3;
-}
-
-.footer-images span {
-  color: #FFF;
-  position: absolute;
-
-  line-height: 12.5px;
-  text-align: center;
-  width: 100%;
-  opacity: 0;
-}
-
-.footer-images:hover span {
-  opacity: 1;
-  transition: opacity 1s;
 }
