@@ -342,6 +342,17 @@ body{
 
 }
 
+.button {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  color: #4C366E;
+  border: solid 3px #4C366E;
+  border-radius: 12%;
+  padding: 3px 9px;
+  background: none;
+}
+
 
 
 
