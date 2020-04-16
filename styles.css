@@ -40,6 +40,10 @@ body{
       height:auto; }
     }
 
+    i {
+      font-size: 60px;
+    }
+
      /* So that the content wont be lost with the reduction in width.
 }
 
