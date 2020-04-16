@@ -16,7 +16,7 @@
   <div class="webpage container-fluid w-100">
     <div class="row no-gutters">
       <nav class="navbar col">
-        <div class="navbar-left col-6 col-xs-12">
+        <div class="navbar-left col-4 col-xs-12">
           <span>RACHEL THOMAS</span>
         </div>
         <div class="navbar-right col-6 col-xs-12">
@@ -26,102 +26,105 @@
         </div>
       </nav>
 
-      <main class="main-body">
+      <main class="main-body row no-gutters d-flex justify-content-center">
 
-        <section class="main-body-right col-4 col-xs-12">
 
-          <div class="sidebar sidebar-1">
-            <div class="banner-picture"><img src="./images/paris-mountain.jpeg" alt=""></div>
-            <div class="profile-picture">
-              <img src="./images/rachel-thomas-copy.jpg" alt="">
+
+          <section class="main-body-left col-lg-6 col-md-11 col-sm-10 col-xs-12">
+
+            <div class="blogpost">
+              <div class=blogpost-image>
+                <img src="./images/nimble-screenshot.png" alt="">
+              </div>
+              <div class="blogpost-content">
+                <h1 class="oswald">NIMBLE</h1>
+                <p class="lato">
+                  I used to work at a small company and we wrote off thousands of dollars each month because product was not tracked properly.
+                   We could have benefitted greatly from some functionality that an ERP system brings.
+                  But, being a small business we could not afford, and didn’t need the robustness of an ERP system.
+                </p>
+                <p class="lato">
+                 This app gives the user the ability to keep track of inventory quantity and location within the warehouse.
+                 Any user can scan an inventory item’s barcode which allows the user to edit the inventory item or add the item to inventory if it doesn’t already exist.
+                 The user also has the ability to add alerts for specific inventory items.
+                 An example of the alert feature would be if  an item is damaged, then a text alert with the part name and alert message would be sent out to all warehouse staff.
+                </p>
+                <p class="lato">
+                 Nimble’s basic functions of tracking inventory, barcode scanning and text alerts add huge value to a small company, at a low cost alternative.
+                </p>
+                <p class="oswald">Note: if scanning a barcode, make sure it is a Code-39 barcode. If trying to create alerts, Twilio will only send me the texts because I am using the free version.</p>
+                <a class="red lato button" href="https://ccs-final-project-rachelwthoma.herokuapp.com/">GO TO NIMBLE</a>
+                <footer>
+                  <div class="footer-left">
+
+                  </div>
+                  <div class="footer-right">
+
+                  </div>
+                </footer>
+              </div>
             </div>
-            <div class="sidebar-content-1">
-              <h1 class="olswald">RACHEL THOMAS</h1>
-              <p class="lato"> Hello, I'm Rachel Thomas and I'm a Web Developer from Greenville, SC.</p>
 
+            <div class="blogpost">
+              <div class="blogpost-image">
+                <img src="./images/chat-app-screenshot.png" alt="">
+              </div>
+              <div class="blogpost-content">
+                <h1 class="oswald">CHAT APP</h1>
+                <p class="lato">
+                  Django chat and message board application with authorization and user roles with different user permission sets.
+                </p>
+                <a class="red lato button"href="https://chat-app-rachelwthomas.herokuapp.com/">GO TO CHAT APP</a>
+                <footer>
+                  <div class="footer-left">
+
+                  </div>
+                  <div class="footer-right">
+
+                  </div>
+                </footer>
+              </div>
+            </div>
+
+            <div class="blogpost">
+              <div class="blogpost-image">
+                <img src="./images/hey-neighbor-screenshot.png" alt="">
+              </div>
+              <div class="blogpost-content">
+                <h1 class="oswald">HEY NEIGHBOR</h1>
+                <p class="lato">
+                  Tool sharing website that allows for users to create an account and login.
+                  Users can add their items with a picture and price of the item. Each user has a screen that lets them see just their rental items that they've added.
+                  Users can see a list of other user's tools that are available and select one that they would like to rent.
+                </p>
+                <a class="red lato button" href="https://hey-neighbor-rachelwthomas.herokuapp.com/">GO TO HEY NEIGHBOR</a>
+                <footer>
+                  <div class="footer-left">
+                  </div>
+                  <div class="footer-right">
+
+                  </div>
+                </footer>
+              </div>
+            </div>
+
+          </section>
+
+
+            <div class="main-body-right col-xl-3 col-lg-4 col-sm-6 col-xs-6">
+            <div class="sidebar sidebar-1">
+              <div class="banner-picture"><img src="./images/paris-mountain.jpeg" alt=""></div>
+              <div class="profile-picture">
+                <img src="./images/rachel-thomas-copy.jpg" alt="">
+              </div>
+              <div class="sidebar-content-1">
+                <h1 class="olswald">RACHEL THOMAS</h1>
+                <p class="lato"> Hello, I'm Rachel Thomas and I'm a Web Developer from Greenville, SC.</p>
+
+              </div>
             </div>
           </div>
-        </section>
 
-        <section class="main-body-left col col-xs-12">
-
-          <div class="blogpost">
-            <div class=blogpost-image>
-              <img src="./images/nimble-screenshot.png" alt="">
-            </div>
-            <div class="blogpost-content">
-              <h1 class="oswald">NIMBLE</h1>
-              <p class="lato">
-                I used to work at a small company and we wrote off thousands of dollars each month because product was not tracked properly.
-                 We could have benefitted greatly from some functionality that an ERP system brings.
-                But, being a small business we could not afford, and didn’t need the robustness of an ERP system.
-              </p>
-              <p class="lato">
-               This app gives the user the ability to keep track of inventory quantity and location within the warehouse.
-               Any user can scan an inventory item’s barcode which allows the user to edit the inventory item or add the item to inventory if it doesn’t already exist.
-               The user also has the ability to add alerts for specific inventory items.
-               An example of the alert feature would be if  an item is damaged, then a text alert with the part name and alert message would be sent out to all warehouse staff.
-              </p>
-              <p class="lato">
-               Nimble’s basic functions of tracking inventory, barcode scanning and text alerts add huge value to a small company, at a low cost alternative.
-              </p>
-              <p class="oswald">Note: if scanning a barcode, make sure it is a Code-39 barcode. If trying to create alerts, Twilio will only send me the texts because I am using the free version.</p>
-              <a class="red lato button" href="https://ccs-final-project-rachelwthoma.herokuapp.com/">GO TO NIMBLE</a>
-              <footer>
-                <div class="footer-left">
-
-                </div>
-                <div class="footer-right">
-
-                </div>
-              </footer>
-            </div>
-          </div>
-
-          <div class="blogpost">
-            <div class="blogpost-image">
-              <img src="./images/chat-app-screenshot.png" alt="">
-            </div>
-            <div class="blogpost-content">
-              <h1 class="oswald">CHAT APP</h1>
-              <p class="lato">
-                Django chat and message board application with authorization and user roles with different user permission sets.
-              </p>
-              <a class="red lato button"href="https://chat-app-rachelwthomas.herokuapp.com/">GO TO CHAT APP</a>
-              <footer>
-                <div class="footer-left">
-
-                </div>
-                <div class="footer-right">
-
-                </div>
-              </footer>
-            </div>
-          </div>
-
-          <div class="blogpost">
-            <div class="blogpost-image">
-              <img src="./images/hey-neighbor-screenshot.png" alt="">
-            </div>
-            <div class="blogpost-content">
-              <h1 class="oswald">HEY NEIGHBOR</h1>
-              <p class="lato">
-                Tool sharing website that allows for users to create an account and login.
-                Users can add their items with a picture and price of the item. Each user has a screen that lets them see just their rental items that they've added.
-                Users can see a list of other user's tools that are available and select one that they would like to rent.
-              </p>
-              <a class="red lato button" href="https://hey-neighbor-rachelwthomas.herokuapp.com/">GO TO HEY NEIGHBOR</a>
-              <footer>
-                <div class="footer-left">
-                </div>
-                <div class="footer-right">
-
-                </div>
-              </footer>
-            </div>
-          </div>
-
-        </section>
 
 
 
